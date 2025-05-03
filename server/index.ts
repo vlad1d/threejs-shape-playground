@@ -9,6 +9,7 @@ const init = async () => {
         console.log('Connection has been established successfully.');
         
         associateModels();
+        await sequelize.sync({ force: true });
 
         await User.create({name: 'Vlad', password: '1234'});
         await User.create({name: 'CreatorMate', password: 'Vlad'});

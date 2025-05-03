@@ -1,10 +1,19 @@
-<h1> CreatorMate Dev Challenge </h1>
+<h1> Three.js Shape Playground </h1>
 
 # Description
-This project is a basic application where you can log in and manipulate several types of shapes. It is a simple RESTful API that allows creation, deletion, modification and retrieval of different models. All data is stored in a database.
+An interactive 3D shape manipulation platform built with Nuxt 3 and Three.js. Users can log in and manage draggable, color-customizable 3D shapes with changes persisted in a SQLite3 database. The app combines a responsive frontend with a modular TypeScript backend using Sequelize as an ORM.
+
 
 ## Running the application
 
+
+### Prerequisites
+- Node.js 
+- SQLite3
+- npm
+- npx
+
+### Dependencies
 Make sure to install dependencies:
 
 ```bash

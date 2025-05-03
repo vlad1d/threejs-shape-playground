@@ -12,11 +12,11 @@
   },
   "dependencies": {
     "nuxt": "^3.14.1592",
-    "pg": "^8.13.1",
     "sequelize": "^6.37.5",
+    "sqlite3": "^5.1.6",
     "three": "^0.170.0",
-    "vue": "latest",
-    "vue-router": "latest"
+    "vue": "3.3.11",
+    "vue-router": "4.2.5"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
